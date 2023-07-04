@@ -4,40 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodSTA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href=""
-        ><img src="./images/FoodSta.svg" alt="logo" width="66" height="52"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button>Order Now</button>
+      <div class="container header-container">
+        <a class="logo" href=""
+          ><img src="./images/FoodSta.svg" alt="logo" width="66" height="52"
+        /></a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="">Home</a></li>
+            <li><a class="nav-link" href="">About</a></li>
+            <li><a class="nav-link" href="">Service</a></li>
+            <li><a class="nav-link" href="">Menu</a></li>
+            <li><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn">Order Now</button>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button type="button">Order Now</button>
-        <img
-          src="./images/main-min.png"
-          alt="plate with food"
-          width="528"
-          height="528"
-        />
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-text-wrap">
+            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your own
+              home.
+            </p>
+            <button class="hero-btn" type="button">Order Now</button>
+          </div>
+          <img
+            src="./images/main-min.png"
+            alt="plate with food"
+            width="528"
+            height="528"
+          />
+        </div>
       </section>
       <section>
         <img src="./images/aple-min.png" alt="apple" width="396" height="502" />
