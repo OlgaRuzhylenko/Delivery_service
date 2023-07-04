@@ -61,7 +61,18 @@ img {
 
 }
 .header-btn {
-   
+    color: var(--primary-text-color);
+font-size: 13px;
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+cursor: pointer;
+color: var(--primary-text-color);
+background-color: var(--btn--bg);
+border-radius: 30px;
+   border: none;
+   padding: 6px 18px;
 }
 .header-btn:hover,
 .header-btn:focus
