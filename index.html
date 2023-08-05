@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
       <div class="container header-container">
         <a class="header-link" href=""
@@ -41,6 +42,7 @@
     </header>
 
     <main>
+      <!-- hero section -->
       <section class="hero">
         <div class="container hero-container">
           <div class="hero-text-wrap">
@@ -62,39 +64,42 @@
           />
         </div>
       </section>
-      <section class="offerings">
-        <img
-          class="offerings-image"
-          src="./images/aple-min.png"
-          alt="apple"
-          width="396"
-          height="502"
-        />
-        <h2 class="offering-title">What’s Special About Our Offerings</h2>
-        <p class="offering-text">
-          With our platform, you can browse through a diverse selection of
-          cuisines and local restaurants, and choose from a variety of dishes
-          that cater to your specific taste buds.
-        </p>
-        <ul class="offering-list">
-          <li class="offering-item">
-            <h3 class="offering-subtitle">Fasest Delivery</h3>
-            <p class="offering-desc">
-              Our advanced logistics system and dedicated delivery partners
-              ensure that your meals are delivered to you within 30-minutes.
-            </p>
-          </li>
-          <li class="offering-item">
-            <h3 class="offering-subtitle">Easy To Order</h3>
-            <p class="offering-desc">
-              You can browse through a wide variety of cuisines and restaurants,
-              select your favorite meals, and place your order in just a few
-              clicks.
-            </p>
-          </li>
-        </ul>
-        <button class="offering-btn" type="button">Order Now</button>
-      </section>
+<!-- offering section -->
+<section class="offerings">
+  <div class="container offerings-container">
+    <div class="offerings-container-image-first">
+      <div class="offerings-container-image-second"></div>
+      <img class="offerings-container-image-third" src="./img/Ellipse.svg" width="252" height="87">
+      <img class="offerings-image" src="./images/aple-min.png" alt="apple" width="396" height="502">
+    </div>
+    <div class="container-inform">
+      <h2 class="offerings-title">What’s Special About Our Offerings</h2>
+      <p class="offerings-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
+      <ul class="offerings-list">
+        <li class="offerings-item">
+          <div class="svg-container">
+            <svg class="offerings-icon" width="32" height="32">
+              <use href="./img/logo.svg#rocket"></use>
+            </svg>
+          </div>
+          <h3 class="offerings-subtitle">Fasest Delivery</h3>
+          <p class="offerings-desc">Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within 30-minutes.</p>
+        </li>
+        <li class="offerings-item">
+          <div class="svg-container">
+            <svg class="offerings-icon" width="32" height="32">
+              <use href="./img/logo.svg#touch"></use>
+            </svg>
+          </div>
+          <h3 class="offerings-subtitle">Easy To Order</h3>
+          <p class="offerings-desc">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
+        </li>
+      </ul>
+      <button class="offerings-btn" type="button">Order Now</button>
+    </div>
+  </div> 
+</section>
+<!-- favorites section -->
       <section class="favor">
         <h2 class="favor-title">Some of Our Favorites</h2>
         <p class="favor-text">Looking for something delicious?</p>
@@ -155,6 +160,7 @@
           </li>
         </ul>
       </section>
+      <!-- review section -->
       <section class="review">
         <h2 class="review-title">What our Customers Say</h2>
         <p class="review-text">
@@ -196,30 +202,18 @@
           </li>
         </ul>
       </section>
-
-      <section class="offers">
-        <h2 class="offers-title">Subscribe To Get Special Offers</h2>
-        <p class="offers-text">
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-        <form class="offers-form">
-          <input
-            class="offers-input"
-            type="text"
-            placeholder="Enter your email"
-          />
-          <button class="offers-btn" type="submit">Subscribe</button>
-        </form>
-        <img
-          class="offers-image"
-          src="./images/banan-min.png"
-          alt="banana"
-          width="608"
-          height="266"
-        />
-      </section>
+<!-- subscribe section -->
+<section class="offers">
+  <h2 class="offers-title">Subscribe To Get Special Offers</h2>
+  <p class="offers-text">Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
+  <form class="offers-form">
+    <input class="offers-input" type="text" placeholder="Enter your email">
+    <button class="offers-btn" type="submit">Subscribe</button>
+    <img class="offers-image" src="./images/banan-min.png" alt="banan" width="608" height="266">
+  </form>
+</section>
     </main>
+<!-- footer section -->
     <footer class="footer">
       <a class="footer-link" href="./index.html">
         <img
