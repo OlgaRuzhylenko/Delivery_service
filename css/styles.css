@@ -257,12 +257,7 @@ min-height: 32px;
     margin-bottom: 28px;
 }
 .offerings-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 67px;
-
-    margin-bottom: 32px;
+      margin-bottom: 28px;
 }
 .offerings-item {
    
@@ -276,44 +271,46 @@ min-height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8px 7px;
+
 }
 .offerings-icon {
     fill: #7EB101;
 }
 .offerings-subtitle {
-    color: #2C2C2C;
     font-size: 18px;
-    line-height: 140%;
-
+    line-height: normal;
 
     margin-bottom: 16px;
 }
 .offerings-desc {
-    color: #2C2C2C;
-    font-family: Roboto, sans-serif;
     font-size: 14px;
-    line-height: 150%;
-    max-width: 264px;
-}
+    line-height: 1.4;
+
+    margin-bottom: 24px;
+  }
+  
 .offerings-btn {
-    color: #2C2C2C;
-    font-family: Roboto, sans-serif;
     font-size: 13px;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
 
     border-radius: 30px;
-    border: 2px solid #7EB101;
+    border: 2px solid var(--mobile-menu-color);
     background: #FFF;
     min-width: 106px;
     padding: 10px 22px;
 
     cursor: pointer;
-}
+ }
 .offerings-btn:hover,
 .offerings-btn:focus {
     border-color: #BBF330;
     background-color: #BBF330;
+}
+
+.offerings-link {
+    
 }
 /* favourites styles */
 .favor {
