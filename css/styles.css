@@ -520,6 +520,11 @@ line-height: 1.5;
 
 /* footer styles */
 .footer {
+    background-image: url(../images/footer/apple-first-min.png), url(../images/footer/orange-min.png), url(../images/footer/drops_orange-min.png), url(../images/footer/fruits-min.png);
+    background-repeat: no-repeat;
+    background-size: 116px 110px, 60px 205px, 104px 259px, 253px 66px;
+    background-repeat: no-repeat;
+    background-position: left 132px, top right, top right, bottom center;
 }
 
 .footer-container {
@@ -527,6 +532,7 @@ line-height: 1.5;
     padding-bottom: 63px;
 
     box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
+
 
 }
 .footer-nav-wrap {
@@ -601,6 +607,8 @@ line-height: 1.5;
 .footer-agree {
     font-size: 10px;
     line-height: normal;
+
+    margin-bottom: 60px;
 }
 .footer-agree-text {
 }
@@ -610,14 +618,27 @@ line-height: 1.5;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-
-    margin-bottom: 60px;
+ 
 }
 .footer-service-list {
+    display: flex;
+    gap: 32px;
+
+    margin-bottom: 40px;
 }
 .footer-service-item {
 }
 .footer-service-link {
+    color: var(--mobile-menu-color);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 }
 .footer-text-right {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
 }
