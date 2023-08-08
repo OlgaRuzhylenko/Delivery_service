@@ -152,25 +152,20 @@ border-radius: 30px;
 /* hero styles */
 .hero {
     padding-bottom: 15px;
+    padding-top: 60px;
        }
 /* mobile */
 .hero-title {
 font-size: 28px;
 line-height: normal;
 margin-bottom: 28px;
-
-display: flex;
-flex-direction: column;
-gap: 38px;
-align-items: center;
-justify-content: center;
 }
-.hero-title::before {
+/* .hero-title::before {
     content: "";
     width: 280px;
     height: 3px;
     background-color: #D9D9D9;
-}
+} */
 .hero-text {
 font-size: 14px;
 line-height: 1.4;
@@ -197,6 +192,10 @@ border: none;
 
 min-width: 98px;
 min-height: 32px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hover-btn);
 }
 .hero-container {
     padding-top: 19px;
@@ -332,7 +331,7 @@ min-height: 32px;
 }
 
 .offerings-link {
-    color: inherit;
+    color: #000000;
     font-size: 13.667px;
     line-height: 1.5;
     margin-right: 3.5px;
@@ -377,6 +376,10 @@ min-height: 32px;
 }
 .favor-item:not(:last-child) {
     margin-bottom: 20px;
+}
+.favor-item:hover,
+.favor-item:focus {
+    border: 11px solid var(--btn--bg);
 }
 .favor-image {
 }
@@ -475,7 +478,6 @@ line-height: 1.5;
     bottom: 357px;
     left: 20px;
 
-    /* margin-bottom: 17px; */
 
     display: flex;
     align-items: center;
@@ -517,6 +519,10 @@ line-height: 1.5;
 
     margin-bottom: 20px;
 }
+.offers-input:hover,
+.offers-input:focus {
+    border: 0.854px solid var(--mobile-menu-color);
+}
 .offers-btn {
     background-color: var(--btn--bg);
     
@@ -533,7 +539,10 @@ line-height: 1.5;
 font-weight: 500;
 line-height: 1.5;
  }
-
+.offers-btn:hover,
+.offers-btn:focus {
+    background-color: var(--hover-btn);
+}
 /* footer styles */
 .footer {
     background-image: url(../images/footer/apple-first-min.png), url(../images/footer/orange-min.png), url(../images/footer/drops_orange-min.png), url(../images/footer/fruits-min.png);
@@ -619,6 +628,10 @@ line-height: 1.5;
     color: inherit;
 
     margin-bottom: 24px;
+}
+.form-btn:hover,
+.form-btn:focus {
+    border: 2px solid var(--hover-btn);
 }
 .footer-agree {
     font-size: 10px;
