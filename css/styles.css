@@ -289,7 +289,11 @@ min-height: 32px;
 
     margin-bottom: 24px;
   }
-  
+  .offerings-wrap {
+
+    display: flex;
+    align-items: center;
+      }
 .offerings-btn {
     font-size: 13px;
     font-weight: 500;
@@ -314,21 +318,48 @@ min-height: 32px;
     color: inherit;
     font-size: 13.667px;
     line-height: 1.5;
+    margin-right: 3.5px;
    
+}
+.offerings-link-icon {
+
 }
 /* favourites styles */
 .favor {
 }
 .favor-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 .favor-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: normal;
+
+    margin-bottom: 20px;
 }
 .favor-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+
+    margin-bottom: 60px;
 }
 .favor-list {
 }
 .favor-item {
+    width: 280px;
+    height: 282px;
+    border: 11px solid var(--yellow-main);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.favor-item:not(:last-child) {
+    margin-bottom: 20px;
 }
 .favor-image {
 }
