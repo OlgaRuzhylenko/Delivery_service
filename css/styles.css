@@ -36,7 +36,7 @@ button {
 }
 .container {
     min-width: 320px;
-    max-width: 320.01px;
+    /* max-width: 320.01px; */
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -300,6 +300,7 @@ min-height: 32px;
     background: #FFF;
     min-width: 106px;
     padding: 10px 22px;
+    margin-right: 24px;
 
     cursor: pointer;
  }
@@ -310,7 +311,10 @@ min-height: 32px;
 }
 
 .offerings-link {
-    
+    color: inherit;
+    font-size: 13.667px;
+    line-height: 1.5;
+   
 }
 /* favourites styles */
 .favor {
