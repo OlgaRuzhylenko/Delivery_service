@@ -439,16 +439,15 @@ gap: 24px;
     gap: 16px;
     flex-direction: row;
 }
-.review-wrap::after {
-    content: "";
-    width: 0.85px;
-    height: 52px;
-    color: #7EB101;
-  }
+
 .review-image {
 }
 .review-wrap-subtitle {
-
+    display: block;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-right: 1px solid var(--mobile-menu-color);
 }
 .review-subtitle {
     margin-bottom: 2px;
