@@ -276,18 +276,17 @@ min-height: 32px;
 .hero-container {
     padding-top: 60px;
     padding-bottom: 50px; 
+
+    
 }
 /* tablet */
 @media screen and (min-width: 768px) {
     .hero-container {
-    padding-bottom: 0;
+    
     }
 }
 /* offering styles */
 .offerings-container {
-    /* display: flex;
-    align-items: center;
-    gap: 90px; */
    
     padding-top: 41px;
     padding-bottom: 72px;
@@ -297,6 +296,13 @@ min-height: 32px;
     background-size: cover;
   
 }
+/* tablet */
+@media screen and (min-width: 768px) {
+    .offerings-container {
+        background-image: url(../images/offerings/bgc-tablet-min.png);
+    }
+}
+
 .container-inform {
 
 }
@@ -347,16 +353,44 @@ min-height: 32px;
 
     margin-bottom: 28px;
 }
+/* tablet */
+@media screen and (min-width: 768px) {
+    .offerings-title {
+        font-size: 42px;
+
+        display: block;
+        max-width: 526px;
+
+        margin-bottom: 20px;        
+    }
+}
 .offerings-text {
     font-size: 14px;
     line-height: 1.4;
 
-    /* display: block;
-    max-width: 526px; */
     margin-bottom: 28px;
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    .offerings-text {
+        font-size: 16px;
+        line-height: 1.5;
+
+        display: block;
+        max-width: 500px;
+
+        margin-bottom: 25px;   
+    }
 }
 .offerings-list {
       margin-bottom: 28px;
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    .offerings-list {
+        display: flex;
+        gap: 80px;
+    }
 }
 .offerings-item {
    
